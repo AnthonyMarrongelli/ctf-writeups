@@ -4,6 +4,8 @@
 
 Category: Cryptography
 
+Difficulty: Medium
+
 Flag Format: hackucf{flag_goes_here}
 
 ## What We Have:
