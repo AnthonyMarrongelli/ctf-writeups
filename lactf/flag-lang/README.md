@@ -28,7 +28,7 @@ And from this I took a shot in the dark and thought, we'll maybe one of these co
 
 ## Attack
 
-Now to test every country -> embargo, i'm going to need a few things.
+Now to test every country -> Flagistan, i'm going to need a few things.
 
 First order of business was getting a list of the countries.
 
