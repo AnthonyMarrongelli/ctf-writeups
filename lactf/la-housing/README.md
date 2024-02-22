@@ -20,7 +20,7 @@ Opening up the website we see:
 
 ![Main Page](pictures/mainpage.png)
 
-Possible sql injection?
+Based off of this and the program files, which include sql database information and queries, I think we are going to be dealing with sql injection.
 
 Let's see if we can get it.
 
