@@ -80,7 +80,7 @@ p.sendline(payload)
 p.interactive()
 ```
 
-The solve script does exactly that. It gets us into the return address, writes `/bin/sh` into rdx, then movs [rdx] into the rax, then fills the registers with our desired values in order to call `execve`. And after calling we have achieved a shell on the server. 
+The solve script does exactly that. It gets us into the return address, writes `/bin/sh` into rdx, then movs [rdx] into rax, then fills the registers with our desired values in order to call `execve`. And after calling we have achieved a shell on the server. 
 
 ## Flag
 
