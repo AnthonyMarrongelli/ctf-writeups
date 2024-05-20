@@ -84,4 +84,4 @@ The solve script does exactly that. It gets us into the return address, writes `
 
 ## Flag
 
-`byuctf{too_many_options_what_do_I_chooooooose}`
+`byuctf{glaD_you_c0uld_improvise_ROP_with_no_provided_gadgets!}`
