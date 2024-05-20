@@ -84,7 +84,7 @@ local_250 = (char *)__gnu_cxx::__normal_iterator<>::operator*
 
 Couple of things to pick out here, an iterator is being created to iterate through the flag, a random value is being generated, and then that value is being xored with the current index of the flag. We also see the modulus by `0x100` but thats just keeping the random value within 1 byte so we keep our result in one byte.
 
-So how can we retrieve the flag? We'll the output being spit out to us from the server uses the time that we connect to the server. So if we can retrieve the correct time, we can just xor the plaintext again with the same sequence of random numbers to retrieve our plaintext.
+So how can we retrieve the flag? We'll the output being spit out to us from the server uses the time that we connect to the server. So if we can retrieve the correct time, we can just xor the ciphertext again with the same sequence of random numbers to retrieve our plaintext.
 
 To grab the correct time, I wrote a little python script that just connects and prints the time as well as the ciphertext.
 ```python
