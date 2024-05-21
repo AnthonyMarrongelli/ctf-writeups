@@ -116,7 +116,7 @@ After compiling it, I opened it up with gdb and began looking at the disassembly
    0x000055555555810f <+239>:   syscall
    0x0000555555558111 <+241>:   add    BYTE PTR [rax],al
 ```
-Poking around with the values in rcx and rcx, I noticed the xor and decided to xor the two values together and what do you know:
+Poking around with the values in rcx and rax, I noticed the xor and decided to xor the two values together and what do you know:
 ```
 0x86b459e918f23a81 ^ 0xf3cf3f9d7b8743e3 = u{ftcuyb
 ```
