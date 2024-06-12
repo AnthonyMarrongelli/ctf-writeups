@@ -74,7 +74,7 @@ To get an arbitrary number of printf vuln's, we can rewrite the `exit@got.plt` e
 
 After than we can use the stack leaks with `%p` in order to get our libc base. With some play testing I was able to see that offset 37 had a memory address located in the libc range. With that I was able to calculate the libc base.
 
-After that, we can simply just overwrite the got entry for printf to system.
+After that, we can simply just overwrite the got entry for printf to system. And we want to do this because after our input is read on the next go around, we can insert an arbitrary system command into it, which will be passed to system(). For our purposes of getting a shell here we will write `/bin/sh` into our buffer.
 
 Heres that in code:
 
