@@ -12,3 +12,10 @@
 - [Prime Time](./crypto/prime-time/): RSA With Vulnerable Public Key
 - [What's Diffie?](./crypto/whats-diffie/): Diffie-Hellman Key Exchange
 - [Xorcellent Flag Checker](./crypto/xorcellent-flag-checker/): Xor Encryption
+
+## Miscellaneous
+- [Cloud Storage](./misc/cloud-storage/): Google Cloud Privilege Escalation
+- [Container Chronicles](./misc/container-chronicles/): Steganography and OSINT
+- [Super Duper Quick Maths](./misc/super-duper-quick-maths/): Scripting
+
+
