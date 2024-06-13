@@ -18,4 +18,12 @@
 - [Container Chronicles](./misc/container-chronicles/): Steganography and OSINT
 - [Super Duper Quick Maths](./misc/super-duper-quick-maths/): Scripting
 
+## Forensics
+- [I Want To Believe](./forensics/i-want-to-believe/): Steganography
+- [Secret](./forensics/secret/): PDF Forensics
+- [The Email Where It Happens](./forensics/the-email-where-it-happens/): PCAP Analysis
+- [You Have Mail](./forensics/you-have-mail/): Email Dissection
 
+## Web
+- [Spreading Out](./web/spreading-out/): Directory Discovery 
+- [Touching Grass](./web/touch-grass/): Parsing Source Code for Vulnerabilities
