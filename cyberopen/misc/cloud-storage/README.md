@@ -31,4 +31,4 @@ WARNING: This command is using service account impersonation. All API calls will
 
 ## Flag
 
-`I did not save the flag :(`
+`SIVBGR{7h3_51nc3r357_f0rm_0f_fl4773ry}`
