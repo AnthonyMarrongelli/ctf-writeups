@@ -55,9 +55,8 @@ Successfully guessing the number gives us the flag.
 Given that bit of knowledge we can utilize a search algorithm named `binary search`.
 
 For those unfamiliar with the algorithm, heres the premise:
-```
+
 Binary search is an efficient algorithm for finding an item from a sorted list of items. It works by repeatedly dividing the search interval in half. If the target value is less than the middle element of the interval, the search continues in the lower half, otherwise in the upper half. This process continues until the target value is found or the interval is empty. The time complexity of binary search is O(log n), making it much faster than linear search for large datasets.
-```
 
 This algorithm is directly applicable to this problem as we can use the list of numbers from the minimum value to the maximum value as the sorted set we are searching. From there we can break it in half up until we eventually land on the correct number.
 
