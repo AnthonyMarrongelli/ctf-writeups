@@ -1,0 +1,19 @@
+# Operating System
+FROM ubuntu:20.04
+
+RUN apt-get update -y && \
+    apt-get install -y gcc gcc-multilib
+
+# Copy files to current directory in Docker image
+COPY main.c flag.txt ynetd ./
+RUN chmod +x ynetd
+RUN chmod -w ynetd flag.txt
+
+# Here is where it complies use the appropriate flags to compile. 
+RUN gcc -o pwn_chall -fstack-protector-strong -z execstack -no-pie -Wl,-z,relro main.c
+
+USER nobody
+
+# Can change the port from 1025 to a new number. 
+EXPOSE 1025
+ENTRYPOINT ["./ynetd", "-p", "1025", "./pwn_chall"]
